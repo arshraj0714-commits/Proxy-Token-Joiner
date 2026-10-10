@@ -1,0 +1,23 @@
+# ══════════════════════════════════════════════════════════════════
+#  EPLY JOINER — proxies.txt
+#  One proxy per line. EVERY common format is auto-detected:
+#
+#    ip:port                          -> 203.0.113.10:8080
+#    user:pass@ip:port                -> bob:pw123@203.0.113.11:8080
+#    protocol://ip:port               -> http://203.0.113.12:8080
+#    protocol://user:pass@ip:port     -> socks5://bob:pw123@203.0.113.13:1080
+#
+#  Supported protocols: http, https, socks4 (stocks4), socks5 / socks5h (stocks5)
+#  Works with database / ISP / residential / datacenter, IPv4 & IPv6, global lists.
+#  Blank lines and lines starting with '#' are ignored.
+#  (The examples below are placeholders — replace them with real proxies!)
+# ══════════════════════════════════════════════════════════════════
+
+203.0.113.10:8080
+bob:pw123@203.0.113.11:8080
+http://203.0.113.12:8080
+https://user:pass@203.0.113.14:3128
+socks5://user:pass@203.0.113.13:1080
+socks4://res-user:res-pass@198.51.100.7:1080
+socks5h://isp-user:isp-pass@198.51.100.8:1080
+http://global-user:global-pass@198.51.100.9:8000

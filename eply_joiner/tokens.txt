@@ -1,0 +1,12 @@
+# ══════════════════════════════════════════════════════════════════
+#  EPLY JOINER — tokens.txt
+#  One entry per line. Two accepted formats:
+#      1) email:password:token     (colon-separated, token last)
+#      2) token                    (bare token only)
+#  Lines starting with '#' and blank lines are ignored.
+#  (The examples below are FAKE placeholders — replace them!)
+# ══════════════════════════════════════════════════════════════════
+
+user1@mail.com:Passw0rd:MTgPZ3kVbXyZ8aQwErTyUiOp.NjY2NjY2NjY.YUJDZGVmZ2hpamtsb3BxcnN0dXZ3
+MTgPZ3kVbXyZ8aQwErTyUiOp.NjY2NjY2NjY.YUJDZGVmZ2hpamtsb3BxcnN0dXZ3
+admin@corp.io:S3cret.Pw.xKj9:xKj9mPqRt7vWz2LcNbYe.AAAAAAAAAAABBBBB.BBBBBBBBBBBBCCCC
